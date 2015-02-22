@@ -1,0 +1,108 @@
+Variable Description
+---------------------
+Variables used in the "run_analysis.r" code:
+
+tr_x:data frame containg information of "x_train.txt"
+tr_xl:data frame containg information of "y_train.txt"(label information)
+tr_xs:data frame containg information of "subject_train.txt"
+tr   :data frame containg information of entire train data set
+ts_x :data frame containg information of "x_test.txt"
+ts_xl:data frame containg information of "y_test.txt"
+ts_xs:data frame containg information of "subject_test.txt"
+ts   :data frame containg information of entire test data set
+data :data frame containg information of entire test and train data sets(step 1 of the project)
+tr_f :data frame containg information of "features.txt"
+l1   :data frame containg information of variables based on measurement of mean function
+l2   :data frame containg information of variables based on measurement of standard deviation function
+tf   :data frame containg information of variables based on measurement of both mean and std functions
+ext_data:data frame containg only values of the required variables.(step 2 of the project)
+t_l  :data frame containg information of "activity_labels.txt"
+labeld_data:data frame containg information of variables along with the activities(step 3 of the project)
+
+Variable names of the tidy data:
+
+The below variables are the subjects measured based on mean and standard deviation of the original data
+"tBodyAcc-mean()-X"
+"tBodyAcc-mean()-Y"
+"tBodyAcc-mean()-Z"
+"tBodyAcc-std()-X"
+"tBodyAcc-std()-Y"
+"tBodyAcc-std()-Z"
+"tGravityAcc-mean()-X"
+"tGravityAcc-mean()-Y"
+"tGravityAcc-mean()-Z"
+"tGravityAcc-std()-X"
+"tGravityAcc-std()-Y"
+"tGravityAcc-std()-Z"
+"tBodyAccJerk-mean()-X"
+"tBodyAccJerk-mean()-Y"
+"tBodyAccJerk-mean()-Z"
+"tBodyAccJerk-std()-X"
+"tBodyAccJerk-std()-Y"
+"tBodyAccJerk-std()-Z"
+"tBodyGyro-mean()-X"
+"tBodyGyro-mean()-Y"
+"tBodyGyro-mean()-Z"
+"tBodyGyro-std()-X"
+"tBodyGyro-std()-Y"
+"tBodyGyro-std()-Z"
+"tBodyGyroJerk-mean()-X"
+"tBodyGyroJerk-mean()-Y"
+"tBodyGyroJerk-mean()-Z"
+"tBodyGyroJerk-std()-X"
+"tBodyGyroJerk-std()-Y"
+"tBodyGyroJerk-std()-Z"
+"tBodyAccMag-mean()"
+"tBodyAccMag-std()"
+"tGravityAccMag-mean()"
+"tGravityAccMag-std()"
+"tBodyAccJerkMag-mean()"
+"tBodyAccJerkMag-std()"
+"tBodyGyroMag-mean()"
+"tBodyGyroMag-std()"
+"tBodyGyroJerkMag-mean()"
+"tBodyGyroJerkMag-std()"
+"fBodyAcc-mean()-X"
+"fBodyAcc-mean()-Y"
+"fBodyAcc-mean()-Z"
+"fBodyAcc-std()-X"
+"fBodyAcc-std()-Y"
+"fBodyAcc-std()-Z"
+"fBodyAcc-meanFreq()-X"
+"fBodyAcc-meanFreq()-Y"
+"fBodyAcc-meanFreq()-Z"
+"fBodyAccJerk-mean()-X"
+"fBodyAccJerk-mean()-Y"
+"fBodyAccJerk-mean()-Z"
+"fBodyAccJerk-std()-X"
+"fBodyAccJerk-std()-Y"
+"fBodyAccJerk-std()-Z"
+"fBodyAccJerk-meanFreq()-X"
+"fBodyAccJerk-meanFreq()-Y"
+"fBodyAccJerk-meanFreq()-Z"
+"fBodyGyro-mean()-X"
+"fBodyGyro-mean()-Y"
+"fBodyGyro-mean()-Z"
+"fBodyGyro-std()-X"
+"fBodyGyro-std()-Y"
+"fBodyGyro-std()-Z"
+"fBodyGyro-meanFreq()-X"
+"fBodyGyro-meanFreq()-Y"
+"fBodyGyro-meanFreq()-Z"
+"fBodyAccMag-mean()"
+"fBodyAccMag-std()"
+"fBodyAccMag-meanFreq()"
+"fBodyBodyAccJerkMag-mean()"
+"fBodyBodyAccJerkMag-std()"
+"fBodyBodyAccJerkMag-meanFreq()"
+"fBodyBodyGyroMag-mean()"
+"fBodyBodyGyroMag-std()"
+"fBodyBodyGyroMag-meanFreq()"
+"fBodyBodyGyroJerkMag-mean()"
+"fBodyBodyGyroJerkMag-std()"
+"fBodyBodyGyroJerkMag-meanFreq()"
+
+
+
+
+
